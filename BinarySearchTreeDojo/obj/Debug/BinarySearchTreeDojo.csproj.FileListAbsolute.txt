@@ -1,0 +1,7 @@
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\bin\Debug\BinarySearchTreeDojo.exe.config
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\bin\Debug\BinarySearchTreeDojo.exe
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\bin\Debug\BinarySearchTreeDojo.pdb
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\obj\Debug\BinarySearchTreeDojo.csprojAssemblyReference.cache
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\obj\Debug\BinarySearchTreeDojo.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\obj\Debug\BinarySearchTreeDojo.exe
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojo\obj\Debug\BinarySearchTreeDojo.pdb

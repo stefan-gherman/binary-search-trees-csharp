@@ -1,0 +1,17 @@
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\BinarySearchTreeDojoTests.dll
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\BinarySearchTreeDojoTests.pdb
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\BinarySearchTreeDojo.exe
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\BinarySearchTreeDojo.pdb
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\BinarySearchTreeDojo.exe.config
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\obj\Debug\BinarySearchTreeDojoTests.csprojAssemblyReference.cache
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\obj\Debug\BinarySearchTreeDojoTests.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\obj\Debug\BinarySearchTreeDojoTests.csproj.CopyComplete
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\obj\Debug\BinarySearchTreeDojoTests.dll
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\obj\Debug\BinarySearchTreeDojoTests.pdb
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Stefan Gherman\Source\Repos\CodecoolGlobal\binary-search-trees-csharp-stefan-gherman\BinarySearchTreeDojoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
