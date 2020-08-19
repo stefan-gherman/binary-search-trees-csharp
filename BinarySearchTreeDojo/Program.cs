@@ -20,7 +20,7 @@ namespace BinarySearchTreeDojo
         {
             Console.WriteLine("Run the tests!");
             Program program = new Program();
-            var listToAdd = program.GenerateNumbers(5);
+            var listToAdd = program.GenerateNumbers(50);
 
             foreach(var item in listToAdd)
             {

@@ -68,7 +68,23 @@ namespace BinarySearchTreeDojo
 
         private Boolean SearchRecursive(int toFind, TreeNode node)
         {
-            return false;
+            if(toFind == node.Value)
+            {
+                return true;
+            } 
+            else
+            {
+                if(toFind > node.Value && node.RightChild != null)
+                {
+                    return SearchRecursive(toFind, node.RightChild);
+                } 
+                else if(toFind < node.Value && node.LeftChild != null)
+                {
+                    return SearchRecursive(toFind, node.LeftChild );
+                }
+               
+                return false;
+            }
         }
 
         public void Add(int toAdd) {
