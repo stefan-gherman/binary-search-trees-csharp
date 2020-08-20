@@ -20,7 +20,7 @@ namespace BinarySearchTreeDojo
         {
             Console.WriteLine("Run the tests!");
             Program program = new Program();
-            var listToAdd = program.GenerateNumbers(50);
+            var listToAdd = program.GenerateNumbers(5);
 
             foreach(var item in listToAdd)
             {
@@ -29,6 +29,12 @@ namespace BinarySearchTreeDojo
             Console.WriteLine("\n");
             var tree = BinarySearchTree.Build(listToAdd);
             Console.WriteLine("Tree Pre Order");
+            tree.PreOrderTraversal();
+            tree.Remove(5);
+            Console.WriteLine("Tree After Delete");
+            tree.PreOrderTraversal();
+            tree.Remove(9);
+            Console.WriteLine("Tree After Delete root");
             tree.PreOrderTraversal();
             Console.ReadKey();
         }

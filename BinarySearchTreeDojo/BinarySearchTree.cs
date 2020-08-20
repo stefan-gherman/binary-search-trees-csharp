@@ -87,8 +87,45 @@ namespace BinarySearchTreeDojo
             }
         }
 
+        public TreeNode Find(int valueToFind)
+        {
+            if(Root == null)
+            {
+                return null;
+            } 
+            else
+            {
+                return FindRecursive(valueToFind, Root);
+            }
+        }
+
+        private TreeNode FindRecursive(int valueToFind, TreeNode currentNode)
+        {
+            if(valueToFind == currentNode.Value)
+            {
+                return currentNode;
+            } 
+            else
+            {
+                if(valueToFind > currentNode.Value && currentNode.RightChild != null)
+                {
+                    return FindRecursive(valueToFind, currentNode.RightChild);
+                } 
+                else if(valueToFind < currentNode.Value && currentNode.LeftChild != null)
+                {
+                    return FindRecursive(valueToFind, currentNode.LeftChild);
+                }
+                return null;
+            }
+        }
+
+
         public void Add(int toAdd) {
             // TODO adds an element. Throws an error if it exist.
+            if(Search(toAdd))
+            {
+                throw new Exception("Value already exists, no duplicates allowed");
+            }
             TreeNode nodeToAdd = new TreeNode(toAdd);
             if (Root == null)
             {
@@ -108,6 +145,7 @@ namespace BinarySearchTreeDojo
                 if(currentNode.LeftChild == null)
                 {
                     currentNode.LeftChild = nodeToAdd;
+                    currentNode.LeftChild.Parent = currentNode;
                 } 
                 else
                 {
@@ -120,6 +158,7 @@ namespace BinarySearchTreeDojo
                 if (currentNode.RightChild == null)
                 {
                     currentNode.RightChild = nodeToAdd;
+                    currentNode.RightChild.Parent = currentNode;
                 }
                 else
                 {
@@ -129,7 +168,83 @@ namespace BinarySearchTreeDojo
         }
 
         public void Remove(int toRemove) {
+            if(!Search(toRemove))
+            {
+                throw new Exception("Value does not exist!");
+            }
             // TODO removes an element. Throws an error if its not on the tree.
+            Remove(Find(toRemove));
+        }
+
+        private void Remove(TreeNode currentNode)
+        {
+            var nodeParent = currentNode.Parent;
+            int numberChildren = NumberOfChildren(currentNode);
+
+            if(numberChildren == 0) 
+            {
+                if (nodeParent.LeftChild == currentNode)
+                {
+                    nodeParent.LeftChild = null;
+                }
+                else if(nodeParent.RightChild == currentNode)
+                {
+                    nodeParent.RightChild = null;
+                }
+            }
+            else if(numberChildren == 1)
+            {
+                TreeNode childNode;
+                if(currentNode.LeftChild != null)
+                {
+                    childNode = currentNode.LeftChild;
+                } 
+                else
+                {
+                    childNode = currentNode.RightChild;
+                }
+                if(nodeParent.LeftChild == currentNode)
+                {
+                    nodeParent.LeftChild = childNode;
+                } 
+                else
+                {
+                    nodeParent.RightChild = childNode;
+                }
+                childNode.Parent = nodeParent;
+            }
+            else if(numberChildren == 2)
+            {
+                var successor = MinSuccessor(currentNode.RightChild);
+                currentNode.Value = successor.Value;
+                Remove(successor);
+            }
+            
+        }
+
+        private int NumberOfChildren(TreeNode node)
+        {
+            int numChildren = 0;
+            if(node.RightChild != null)
+            {
+                numChildren += 1;
+            }
+
+            if(node.LeftChild != null)
+            {
+                numChildren += 1;
+            }
+            return numChildren;
+        }
+
+        private TreeNode MinSuccessor(TreeNode node)
+        {
+            TreeNode currentNode = node;
+            while(currentNode.LeftChild != null)
+            {
+                currentNode = currentNode.LeftChild;
+            }
+            return currentNode;
         }
         
         public void PreOrderTraversal()

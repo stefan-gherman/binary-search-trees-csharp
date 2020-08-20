@@ -10,7 +10,7 @@ namespace BinarySearchTreeDojo
     {
         public TreeNode LeftChild { get; set; }
         public TreeNode RightChild { get; set; }
-        //public TreeNode Parent { get; set; }
+        public TreeNode Parent { get; set; }
         public int Value { get; set; }
 
         public TreeNode(int value/* TreeNode parent, TreeNode leftChild, TreeNode rightChild*/)
